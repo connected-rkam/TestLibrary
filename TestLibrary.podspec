@@ -13,20 +13,10 @@ Pod::Spec.new do |spec|
   spec.summary      = "A TestLibrary which holds style files as an example library that works with other dependency managers."
   spec.homepage     = "https://github.com/connected-rkam/TestLibrary"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
-
   spec.author             = { "Raymond Kam" => "rkam@connected.io" }
   spec.platform     = :ios, "13.0"
+  spec.swift_versions = ['5.1', '5.2', '5.3']
   spec.source       = { :git => "https://github.com/connected-rkam/TestLibrary.git", :tag => "#{spec.version}" }
-
-
-  # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  CocoaPods is smart about how it includes source code. For source files
-  #  giving a folder will include any swift, h, m, mm, c & cpp files.
-  #  For header files it will include any header in the folder.
-  #  Not including the public_header_files will make all headers public.
-  #
-
   spec.source_files  = "TestLibrary/**/*.swift"
 
   # spec.resources = "Resources/*.png"
