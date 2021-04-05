@@ -10,14 +10,13 @@ Pod::Spec.new do |spec|
 
   spec.name         = "TestLibrary"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of TestLibrary."
-  spec.homepage     = "http://EXAMPLE/TestLibrary"
-  spec.license      = "MIT"
-  # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  spec.summary      = "A TestLibrary which holds style files as an example library that works with other dependency managers."
+  spec.homepage     = "https://github.com/connected-rkam/TestLibrary"
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
 
   spec.author             = { "Raymond Kam" => "rkam@connected.io" }
   spec.platform     = :ios, "13.0"
-  spec.source       = { :git => "git@github.com:connected-rkam/TestLibrary.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/connected-rkam/TestLibrary.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -28,8 +27,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  spec.source_files  = "TestLibrary/**/*.swift"
 
   # spec.resources = "Resources/*.png"
 
