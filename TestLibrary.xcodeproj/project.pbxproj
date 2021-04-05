@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		F4647C4E261BABA700F70B48 /* TestLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = F4647C4C261BABA700F70B48 /* TestLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4647C7E261BB04000F70B48 /* ConnectedStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4647C7D261BB04000F70B48 /* ConnectedStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F4647C49261BABA700F70B48 /* TestLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4647C4C261BABA700F70B48 /* TestLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestLibrary.h; sourceTree = "<group>"; };
 		F4647C4D261BABA700F70B48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4647C7D261BB04000F70B48 /* ConnectedStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectedStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 			children = (
 				F4647C4C261BABA700F70B48 /* TestLibrary.h */,
 				F4647C4D261BABA700F70B48 /* Info.plist */,
+				F4647C7D261BB04000F70B48 /* ConnectedStyle.swift */,
 			);
 			path = TestLibrary;
 			sourceTree = "<group>";
@@ -131,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4647C7E261BB04000F70B48 /* ConnectedStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
